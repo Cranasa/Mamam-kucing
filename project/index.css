@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+nav {
+  padding: 30px;
+  background-color: #fdac46;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.atas {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100vh;
+  background-image: url("IMG/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-left: 60px;
+  margin-top: -20px;
+}
+.judul {
+  font-family: "Kristen ITC";
+  font-size: 50px;
+  color: #ffebc3;
+  text-shadow: 2px 2px #fdac46;
+}
+.subjudul {
+  margin-left: 70px;
+  margin-top: -20px;
+}
+.atas p {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 60px;
+}
+.button {
+  text-decoration: none;
+  color: black;
+  font-family: "Kristen ITC";
+  background-color: #fdac46;
+  padding: 20px;
+  border-radius: 30px;
+  /* box-shadow: 0px 4px #df7822; */
+  box-shadow: 0 4px #df7822, 0px 4px 5px black;
+}
+#About {
+  background-image: url("IMG/cat\ 2.png");
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#About .About-deks {
+  font-family: "Kristen ITC";
+  font-size: 40px;
+  color: #fdac46;
+  text-align: center;
+  padding-top: 10vh;
+}
+#Dr {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dr-content {
+  height: 500px;
+  width: 30%;
+  font-size: 25px;
+}
+.testimonial-author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.NekoFact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Fact {
+  background-color: #e89058;
+  /* margin-top: -18px; */
+  padding: 80px 150px;
+  display: flex;
+  gap: 10px;
+}
+.fact-content {
+  width: 50%;
+  padding-left: 150px;
+  font-size: 20px;
+}
+#order {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.order-content {
+  width: 33%;
+  text-align: right;
+}
+.order-text {
+  margin: 0;
+  font-size: 80px;
+}
+.order-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+footer nav a {
+  font-size: large;
+}
+.footer-menu {
+  display: flex;
+  gap: 40px;
+}
+/* @media (max-width: 678px) {
+  .judul {
+    font-size: 20px;
+  }
+} */
